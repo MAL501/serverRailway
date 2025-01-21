@@ -2,19 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>Bosco</h1>
-    <form action="/saludo">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre">
-        <br>
-        <label for="password">Contraseña:</label>
-        <input type="password" name="password" id="password">
+    <h1>IES JUAN BOSCO</h1><br>
+    <form action="/saludo" method="post">
+        <label for="">nombre</label><input type="text" name="nombre">
+        <label for="">contrasena</label><input type="password" name="contrasena" id="contra">
+        <input type="submit" value="login">
+    </form>
 
-        <input type="submit" value="Filtraremos tu contraseña">
+    <h2>Calculo del factorial</h2><br>
+
+    <form action="/factorial" method="post">
+        <label for="">numero</label><input type="number" name="numero" id="numero">
+        <input type="submit" value="login">
     </form>
 </body>
 </html>
